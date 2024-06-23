@@ -1,0 +1,65 @@
+body{
+ background: DarkSlateBlue;
+  
+  color: PapayaWhip;
+  font-family: sans-serif; 
+}
+
+.card{
+  border: 1px solid;
+  border-radius: 15px;
+  width: 350px;
+  
+  text-align: center;
+   
+  padding: 30px;
+  background: linear-gradient(#0002,#fff2);
+  
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+.perfil img{
+  border: 1px solid;
+  border-radius: 50%;
+  width: 150x;
+  height: 150px;
+  object-fit: cover;
+  box-shandow: 0 0 5px;
+}
+
+.perfil h1{
+  font-size: 25px;
+}
+
+.redes{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 35px;
+}
+
+.redes a{
+  color: indigo;
+  text-decoration: none;
+  border: 1px solid;
+  padding: 4px;
+  border-radius: 4px;
+  background: linear-gradient(#0002,#fff2);
+}
+
+.bio{
+  border: 1px solid;
+  padding: 5px;
+  border-radius: 10px;
+  text-align: center;
+  
+  background: linear-gradient(#0002,#fff2);
+  
+}
+ 
+  
+  
+  
